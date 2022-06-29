@@ -1,0 +1,11 @@
+@media(max-width:880px) {
+    nav {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .comidas {
+        display: flex;
+        flex-direction: column;
+    }
+}

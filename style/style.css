@@ -1,98 +1,126 @@
 * {
-    padding: 0;
-    margin: 0;
-}
+  padding: 0;
+  margin: 0; }
 
 body {
-    background-image: url(../img/fondopiola.jpg);
-}
+  background-image: url(../img/fondopiola.jpg); }
+  body main {
+    width: 100%; }
 
 header {
-    background-color: black;
-}
-
-nav {
-    width: 100%;
-}
-
-nav ul {
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    font-size: 20px;
-    margin-top: 15px;
-}
-
-main {
-    width: 100%;
-}
-
-.letras{
-    color: rgb(0, 0, 0);
-}
-
-.pagina {
-    background-color: rgb(153, 94, 17);
-    text-align: center;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
+  background-color: black; }
+  header nav {
+    width: 100%; }
+    header nav ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 20px;
+      margin-top: 15px; }
 
 .comidas {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    width: 100%;
-}
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%; }
+  .comidas img {
+    width: 100%; }
+    .comidas img .imagenes {
+      margin-bottom: 110px;
+      width: 300px;
+      height: 300px; }
+      .comidas img .imagenes .imagenes:hover {
+        transform: scale(1.05);
+        transition: all 1s ease; }
 
-img {
-    width: 100%;
-}
-
-.imagenes {
-    margin-bottom: 80px;
-    width: 300px;
-    height: 300px;
-}
-
-.imagenes:hover{
-    transform: scale(1.05);
-    transition: all 1s ease ;
-}
-
-.sucursal{
-    display: flex;
-    flex-direction: row;
-    background-color: #995e11;
-}
-
-.sucursal2{
-    width: 900px;
-}
+.pagina {
+  background-color: #995e11;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  align-content: space-between;
+  width: 100%; }
+  .pagina .letras {
+    color: black; }
 
 footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #995e11;
+  margin-top: 40px;
+  margin-bottom: 25px; }
+
+@media (max-width: 880px) {
+  nav {
     display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
-    background-color: #995e11;
-    margin-top: 40px;
-    margin-bottom: 25px;
-}
+    flex-direction: column; }
+  .comidas {
+    display: flex;
+    flex-direction: column; } }
 
-.formulario{
-    background-color: #995e11;
-    margin: 25px;
-}
+.formulario {
+  background-color: #995e11;
+  margin: 25px; }
 
-@media(max-width:880px) {
-    nav ul {
-        display: flex;
-        flex-direction: column;
-    }
+* {
+  padding: 0;
+  margin: 0; }
 
-    .comidas {
-        display: flex;
-        flex-direction: column;
-    }
-}
+body {
+  background-image: url(../img/fondopiola.jpg); }
+
+header {
+  background-color: black; }
+
+main {
+  width: 100%; }
+
+.letras {
+  color: black; }
+
+.pagina {
+  background-color: #995e11;
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px; }
+
+.comidas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 100%; }
+
+img {
+  width: 100%; }
+
+.imagenes {
+  margin-bottom: 110px;
+  width: 300px;
+  height: 300px; }
+
+.imagenes:hover {
+  transform: scale(1.05);
+  transition: all 1s ease; }
+
+footer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #995e11;
+  margin-top: 40px;
+  margin-bottom: 25px; }
+
+.formulario {
+  background-color: #995e11;
+  margin: 25px; }
+
+@media (max-width: 880px) {
+  nav ul {
+    display: flex;
+    flex-direction: column; }
+  .comidas {
+    display: flex;
+    flex-direction: column; } }

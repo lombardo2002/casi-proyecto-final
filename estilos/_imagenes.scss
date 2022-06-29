@@ -1,0 +1,21 @@
+.comidas {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 100%;
+
+    img {
+        width: 100%;
+
+        .imagenes {
+            margin-bottom: 110px;
+            width: 300px;
+            height: 300px;
+
+            .imagenes:hover {
+                transform: scale(1.05);
+                transition: all 1s ease;
+            }
+        }
+    }
+    }
