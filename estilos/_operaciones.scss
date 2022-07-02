@@ -1,0 +1,11 @@
+$redes:(
+    ver: red,
+    en: #0cf346,
+    el: #aa0f95,
+    mapa: blue,
+);
+@each $red, $color in $redes {
+    .btn--#{$red}{
+        background-color: $color;
+    }
+}

@@ -5,6 +5,7 @@
 @import "footer";
 @import "media";
 @import "formulario";
+@import "operaciones";
 
 * {
     padding: 0;
@@ -72,6 +73,16 @@ footer {
     margin: 25px;
 }
 
+.sucursal{
+    background-color: #995e11;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.sucursal2{
+    width: 600px;
+}
+
 @media(max-width:880px) {
     nav ul {
         display: flex;
@@ -81,6 +92,7 @@ footer {
     .comidas {
         display: flex;
         flex-direction: column;
+        margin: 25px;
     }
 }
 

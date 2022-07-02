@@ -33,6 +33,13 @@ header {
         transform: scale(1.05);
         transition: all 1s ease; }
 
+.sucursal {
+  background-color: #995e11;
+  display: flex;
+  flex-wrap: wrap; }
+  .sucursal .sucursal2 {
+    width: 600px; }
+
 .pagina {
   background-color: #995e11;
   text-align: center;
@@ -63,6 +70,18 @@ footer {
 .formulario {
   background-color: #995e11;
   margin: 25px; }
+
+.btn--ver {
+  background-color: red; }
+
+.btn--en {
+  background-color: #0cf346; }
+
+.btn--el {
+  background-color: #aa0f95; }
+
+.btn--mapa {
+  background-color: blue; }
 
 * {
   padding: 0;
@@ -117,10 +136,19 @@ footer {
   background-color: #995e11;
   margin: 25px; }
 
+.sucursal {
+  background-color: #995e11;
+  display: flex;
+  flex-wrap: wrap; }
+
+.sucursal2 {
+  width: 600px; }
+
 @media (max-width: 880px) {
   nav ul {
     display: flex;
     flex-direction: column; }
   .comidas {
     display: flex;
-    flex-direction: column; } }
+    flex-direction: column;
+    margin: 25px; } }
