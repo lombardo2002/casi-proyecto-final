@@ -1,11 +1,44 @@
-$redes:(
-    ver: red,
-    en: #0cf346,
-    el: #aa0f95,
-    mapa: blue,
+/*los mapas los utilice en la parte de sucursal como para que busquen en el mapa cada direccion*/
+
+$redes:(ver: #aa0f95,
+    en:#9b2226,
+    el: #bb3e03,
+    mapa: #ee9b00,
 );
-@each $red, $color in $redes {
-    .btn--#{$red}{
+
+@each $red,
+$color in $redes {
+    .btn--#{$red} {
         background-color: $color;
     }
+}
+
+/*agregue un entend abajo de las comidas y tragos como una atencion al cliente*/
+
+.atencion {
+    background-color: #995e11;
+    text-align: center;
+}
+
+.atencion--provecho {
+    color: white;
+}
+
+.atencion--disfrute {
+    color: black;
+}
+
+/*le agregue un mixin encima del video promocionandolo*/
+
+@mixin sizes ($width, $height) {
+    height: $height;
+    width: $width;
+}
+
+.mixin {
+    @include sizes(100%, 50px);
+    align-items: center;
+    background-color: #995e11;
+    margin-top: 20px;
+    margin-bottom: 10px;
 }
