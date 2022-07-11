@@ -1,63 +1,44 @@
 * {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 body {
-  background-image: url(../img/fondopiola.jpg);
-}
-
-body main {
-  width: 100%;
-}
+  background-image: url(../img/fondopiola.jpg); }
+  body main {
+    width: 100%; }
 
 header {
-  background-color: black;
-}
-
-header nav {
-  width: 100%;
-}
-
-header nav ul {
-  display: flex;
-  justify-content: space-around;
-  align-items: center;
-  font-size: 20px;
-  margin-top: 15px;
-}
+  background-color: black; }
+  header nav {
+    width: 100%; }
+    header nav ul {
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      font-size: 20px;
+      margin-top: 15px; }
 
 .comidas {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 100%;
-}
-
-.comidas img {
-  width: 100%;
-}
-
-.comidas img .imagenes {
-  margin-bottom: 110px;
-  width: 300px;
-  height: 300px;
-}
-
-.comidas img .imagenes .imagenes:hover {
-  transform: scale(1.05);
-  transition: all 1s ease;
-}
+  width: 100%; }
+  .comidas img {
+    width: 100%; }
+    .comidas img .imagenes {
+      margin-bottom: 110px;
+      width: 300px;
+      height: 300px; }
+      .comidas img .imagenes .imagenes:hover {
+        transform: scale(1.05);
+        transition: all 1s ease; }
 
 .sucursal {
   background-color: #995e11;
   display: flex;
-  flex-wrap: wrap;
-}
-
-.sucursal .sucursal2 {
-  width: 600px;
-}
+  flex-wrap: wrap; }
+  .sucursal .sucursal2 {
+    width: 600px; }
 
 .pagina {
   background-color: #995e11;
@@ -65,16 +46,11 @@ header nav ul {
   margin-top: 20px;
   margin-bottom: 50px;
   align-content: space-between;
-  width: 100%;
-}
-
-.pagina .letras {
-  color: black;
-}
-
-.pagina .redes {
-  color: black;
-}
+  width: 100%; }
+  .pagina .letras {
+    color: black; }
+  .pagina .redes {
+    color: black; }
 
 footer {
   display: flex;
@@ -83,120 +59,75 @@ footer {
   align-items: center;
   background-color: #995e11;
   margin-top: 20px;
-  margin-bottom: 25px;
-}
+  margin-bottom: 25px; }
 
 @media (max-width: 880px) {
   nav {
     display: flex;
-    flex-direction: column;
-  }
-
+    flex-direction: column; }
   .comidas {
     display: flex;
-    flex-direction: column;
-  }
-}
+    flex-direction: column; } }
 
 .formulario {
   background-color: #995e11;
-  margin: 25px;
-}
+  margin: 25px; }
 
 /*los mapas los utilice en la parte de sucursal como para que busquen en el mapa cada direccion*/
 .btn--ver {
-  background-color: #aa0f95;
-}
+  background-color: #aa0f95; }
 
 .btn--en {
-  background-color: #9b2226;
-}
+  background-color: #9b2226; }
 
 .btn--el {
-  background-color: #bb3e03;
-}
+  background-color: #bb3e03; }
 
 .btn--mapa {
-  background-color: #ee9b00;
-}
-
-/*agregue un entend abajo de las comidas y tragos como una atencion al cliente*/
-.atencion {
-  background-color: #995e11;
-  text-align: center;
-}
-
-.atencion--provecho {
-  color: white;
-}
-
-.atencion--disfrute {
-  color: black;
-}
-
-/*le agregue un mixin encima del video promocionandolo*/
-.mixin {
-  height: 50px;
-  width: 100%;
-  align-items: center;
-  background-color: #995e11;
-  margin-top: 20px;
-  margin-bottom: 10px;
-}
+  background-color: #ee9b00; }
 
 * {
   padding: 0;
-  margin: 0;
-}
+  margin: 0; }
 
 body {
-  background-image: url(../img/fondopiola.jpg);
-}
+  background-image: url(../img/fondopiola.jpg); }
 
 header {
-  background-color: white;
-}
+  background-color: white; }
 
 main {
-  width: 100%;
-}
+  width: 100%; }
 
 .letras {
-  color: black;
-}
+  color: black; }
 
 .redes {
-  color: black;
-}
+  color: black; }
 
 .pagina {
   background-color: #995e11;
   text-align: center;
   margin-top: 20px;
-  margin-bottom: 20px;
-}
+  margin-bottom: 20px; }
 
 .comidas {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-around;
-  width: 100%;
-}
+  width: 100%; }
 
 img {
-  width: 100%;
-}
+  width: 100%; }
 
 .imagenes {
   margin-bottom: 110px;
   width: 300px;
-  height: 300px;
-}
+  height: 300px; }
 
 .imagenes:hover {
   transform: scale(1.05);
-  transition: all 1s ease;
-}
+  transition: all 1s ease; }
 
 footer {
   display: flex;
@@ -205,33 +136,25 @@ footer {
   align-items: center;
   background-color: #995e11;
   margin-top: 20px;
-  margin-bottom: 25px;
-}
+  margin-bottom: 25px; }
 
 .formulario {
   background-color: #995e11;
-  margin: 25px;
-}
+  margin: 25px; }
 
 .sucursal {
   background-color: #995e11;
   display: flex;
-  flex-wrap: wrap;
-}
+  flex-wrap: wrap; }
 
 .sucursal2 {
-  width: 600px;
-}
+  width: 600px; }
 
 @media (max-width: 880px) {
   nav ul {
     display: flex;
-    flex-direction: column;
-  }
-
+    flex-direction: column; }
   .comidas {
     display: flex;
     flex-direction: column;
-    margin: 25px;
-  }
-}
+    margin: 25px; } }

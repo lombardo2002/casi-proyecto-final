@@ -13,32 +13,3 @@ $color in $redes {
     }
 }
 
-/*agregue un entend abajo de las comidas y tragos como una atencion al cliente*/
-
-.atencion {
-    background-color: #995e11;
-    text-align: center;
-}
-
-.atencion--provecho {
-    color: white;
-}
-
-.atencion--disfrute {
-    color: black;
-}
-
-/*le agregue un mixin encima del video promocionandolo*/
-
-@mixin sizes ($width, $height) {
-    height: $height;
-    width: $width;
-}
-
-.mixin {
-    @include sizes(100%, 50px);
-    align-items: center;
-    background-color: #995e11;
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
