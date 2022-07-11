@@ -18,6 +18,9 @@ body {
 
 header{
     background-color: white;
+    li{
+        list-style-type: none;
+    }
 }
 
 main {
@@ -80,10 +83,24 @@ footer {
     background-color: #995e11;
     display: flex;
     flex-wrap: wrap;
+    margin: 10px;
+}
+
+.scs{
+    margin: 30px;
 }
 
 .sucursal2{
     width: 600px;
+}
+
+.btn{
+    background-color: #995e11;
+}
+
+.video{
+    display: flex;
+    justify-content: center;
 }
 
 @media(max-width:880px) {

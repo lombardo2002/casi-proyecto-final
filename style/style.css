@@ -75,16 +75,24 @@ footer {
 
 /*los mapas los utilice en la parte de sucursal como para que busquen en el mapa cada direccion*/
 .btn--ver {
-  background-color: #aa0f95; }
+  background-color: #aa0f95;
+  margin: 10px;
+  display: flex; }
 
 .btn--en {
-  background-color: #9b2226; }
+  background-color: #9b2226;
+  margin: 10px;
+  display: flex; }
 
 .btn--el {
-  background-color: #bb3e03; }
+  background-color: #bb3e03;
+  margin: 10px;
+  display: flex; }
 
 .btn--mapa {
-  background-color: #ee9b00; }
+  background-color: #ee9b00;
+  margin: 10px;
+  display: flex; }
 
 * {
   padding: 0;
@@ -95,6 +103,8 @@ body {
 
 header {
   background-color: white; }
+  header li {
+    list-style-type: none; }
 
 main {
   width: 100%; }
@@ -145,10 +155,21 @@ footer {
 .sucursal {
   background-color: #995e11;
   display: flex;
-  flex-wrap: wrap; }
+  flex-wrap: wrap;
+  margin: 10px; }
+
+.scs {
+  margin: 30px; }
 
 .sucursal2 {
   width: 600px; }
+
+.btn {
+  background-color: #995e11; }
+
+.video {
+  display: flex;
+  justify-content: center; }
 
 @media (max-width: 880px) {
   nav ul {
